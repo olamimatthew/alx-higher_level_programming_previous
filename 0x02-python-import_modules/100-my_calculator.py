@@ -9,7 +9,7 @@ if __name__ == "__main__":
 
     op = argv[2]
     if op != '+' and op != '-' and op != '*' and op != '/':
-        print("Unknown operator. Available operators: +, -, * and /:")
+        print("Unknown operator. Available operators: +, -, * and /")
         exit(1)
 
     from calculator_1 import add, sub, mul, div
